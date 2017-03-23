@@ -1,6 +1,9 @@
 /*
  * Author: Morgan Matchuny
  * 
+ READS IN INTEL HEX FORMAT HEX FILE, PARSES IT INTO MANAGABLE CHUNKS TO PROGRAM A CHIP,
+ PRINTS TO SERIAL PORT FOR DEBUGGING PURPOSES.
+ *
  The circuit:
  * SD card attached to SPI bus as follows:
  ** MOSI - pin 11
