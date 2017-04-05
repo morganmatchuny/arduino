@@ -77,7 +77,7 @@ void setup() {
      Serial.println(file_length);              //5657 bytes
 
      //each chunk is 512 bytes: BYTE keyword no longer supported- use (char(512))
-     int chunk_size = (char(512));
+     int chunk_size = (char(file_size));
      
      //buffer holds 512 bytes at a time
      String buffer_array[chunk_size];
